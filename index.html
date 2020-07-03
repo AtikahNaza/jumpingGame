@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en" onkeypress="jump()" ontouchend="jump()">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width" />
+    <title>Game</title>
+    <link href="https://fonts.googleapis.com/css?family=Bungee|Bungee+Shade|Covered+By+Your+Grace" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:800" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="game">
+        <div id="high-score"></div>
+        <div id="score">Score: 0</div>
+        <div id="character">
+            <img id="change" src="steven.gif" width="70px" height="auto">
+        </div>
+        <div id="block">
+            <img src="mineral.png" width="30px" height="auto">
+        </div>
+    </div>
+    <a href="#" id="restart" onclick="restart()">Restart</a>
+</body>
+<script src="script.js"></script>
+
+</html>
