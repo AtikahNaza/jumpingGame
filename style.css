@@ -10,7 +10,7 @@ body {
 #game {
     width: 100%;
     height: auto;
-    padding-top: 20px ;
+    padding-top: 20px;
 }
 
 #character {
@@ -53,6 +53,7 @@ body {
     top: 50px;
     text-decoration: none;
 }
+
 #clearScore {
     display: none;
     border: none;
@@ -71,30 +72,37 @@ body {
 .animate {
     animation: jump 600ms;
 }
-#mode{
+
+#mode {
     padding: 30px;
-    display:none;
+    display: none;
 }
-@media only screen and (max-width:768px){
-    body{
+
+@media only screen and (max-width:768px) {
+    body {
         width: 100%;
     }
-    #restart{
+
+    #restart {
         display: none;
     }
-    #mode{
-    display:block;
+
+    #mode {
+        display: block;
     }
 }
-@media only screen and (max-width:1080px){
-    #game{
+
+@media only screen and (max-width:1080px) {
+    #game {
         display: none;
     }
-    #restart{
+
+    #restart {
         display: none;
     }
-    #mode{
-    display:block;
+
+    #mode {
+        display: block;
     }
 }
 
