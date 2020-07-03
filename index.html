@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" onkeypress="jump()" ontouchend="jump()">
+<html lang="en" onkeypress="jump()" id="full">
 
 <head>
     <meta charset="UTF-8">
@@ -12,16 +12,19 @@
 
 <body>
     <div id="game">
+        <div id="note"><span style="color:crimson"> Jump as much as you can, just dont hit the rock! Press the Spacebar to start.</span></div>
         <div id="high-score"></div>
         <div id="score">Score: 0</div>
         <div id="character">
-            <img id="change" src="steven.gif" width="70px" height="auto">
+            <img id="change" src="stevenStill.PNG" width="70px" height="auto">
         </div>
         <div id="block">
             <img src="mineral.png" width="30px" height="auto">
         </div>
     </div>
     <a href="#" id="restart" onclick="restart()">Restart</a>
+    <a href="#" id="clearScore" onclick="clearSc()">clear High Score</a>
+    <p id="mode">This game can only be played in Desktop mode at the moment.</p>
 </body>
 <script src="script.js"></script>
 
